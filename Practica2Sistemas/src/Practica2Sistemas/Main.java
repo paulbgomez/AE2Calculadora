@@ -15,5 +15,10 @@ public class Main {
         // Se invoca la clase Resta y se prueba uno de los metodos
         Resta resta = new Resta();
         System.out.println(resta.restaReales(secondInt, firstInt));
+        
+        // Se invoca la clase Division y se prueba uno de los metodos
+        Division cociente = new Division();
+        System.out.println(cociente.divEnteros(secondInt,firstInt));
+        
     }
 }
