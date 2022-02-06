@@ -1,4 +1,4 @@
-package practica1Sistemas;
+package Practica2Sistemas;
 import java.io.IOException;
 
 /**
