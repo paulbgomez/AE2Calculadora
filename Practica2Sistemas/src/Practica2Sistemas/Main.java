@@ -10,10 +10,10 @@ public class Main {
 
         // Se invoca la clase Sum y se prueba uno de los metodos
         Sum suma = new Sum();
-        System.out.println(suma.sumReales(firstInt, secondInt));
+        System.out.println(suma.sumEnteros(firstInt, secondInt));
 
         // Se invoca la clase Resta y se prueba uno de los metodos
         Resta resta = new Resta();
-        System.out.println(resta.restaReales(secondInt, firstInt));
+        System.out.println(resta.restaEnteros(secondInt, firstInt));
     }
 }

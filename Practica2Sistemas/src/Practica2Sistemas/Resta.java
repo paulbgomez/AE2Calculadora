@@ -19,7 +19,7 @@ public class Resta {
 	 * @param arg numero a checkear
 	 * @throws IOException no se aceptan numeros negativos
 	 */
-	public void checkArgValue (int arg) throws IOException {
+	public void checkArgValue (float arg) throws IOException {
 		if (arg < 0) throw new IOException("no se aceptan numeros negativos");    
 	}
 	
@@ -30,7 +30,7 @@ public class Resta {
 	 * @throws IOException error cuando los numeros introducidos son negativos
 	 * @return numero entero resultado de la resta
 	 */
-	public int restaReales(int arg1, int arg2) throws IOException {
+	public float restaReales(float arg1, float arg2) throws IOException {
 		checkArgValue(arg1);
 		checkArgValue(arg2);
 		var result = arg1 - arg2;
@@ -45,7 +45,7 @@ public class Resta {
 	 * @throws IOException error cuando los numeros introducidos son negativos
 	 * @return numero entero resultado de la resta
 	 */
-	public int restaReales(int arg1, int arg2, int arg3) throws IOException {
+	public float restaReales(float arg1, float arg2, float arg3) throws IOException {
 		checkArgValue(arg1);
 		checkArgValue(arg2);
 		checkArgValue(arg3);
@@ -60,9 +60,9 @@ public class Resta {
 	 * @throws IOException error cuando los numeros introducidos son negativos
 	 * @return numero entero resultado de la resta
 	 */
-	public float restaEnteros(float arg1, float arg2) throws IOException {
-		checkArgValue((int) arg1);
-		checkArgValue((int) arg2);
+	public int restaEnteros(int arg1, int arg2) throws IOException {
+		checkArgValue(arg1);
+		checkArgValue(arg2);
 		var result = arg1 - arg2;
 		return result;
 	}
