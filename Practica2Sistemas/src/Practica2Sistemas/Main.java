@@ -19,5 +19,9 @@ public class Main {
         // Se invoca la clase Division y se prueba uno de los metodos
         Division cociente = new Division();
         System.out.println(cociente.divEnteros(secondInt,firstInt));
+        
+     // Se invoca la clase Producto y se prueba uno de los metodos
+        Producto multiplicacion = new Producto();
+        System.out.println(multiplicacion.producEnteros(firstInt, secondInt));
     }
 }
