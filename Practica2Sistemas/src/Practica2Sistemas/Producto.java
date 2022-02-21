@@ -44,7 +44,7 @@ public class Producto {
 	* @throws IOException error cuando los numeros introducidos son negativos
 	* @return numero entero resultado de la multiplicacion
 	*/
-	public int producEnteros(int arg1, int arg2) throws IOException {
+	public int producEnteros(float arg1, float arg2) throws IOException {
 		checkArgValue((int) arg1);
 		checkArgValue((int) arg2);
 		var result = arg1 * arg2;
