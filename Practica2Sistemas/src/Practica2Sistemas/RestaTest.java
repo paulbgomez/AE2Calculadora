@@ -1,6 +1,8 @@
-import static org.junit.jupiter.api.Assertions.*;
+package Practica2Sistemas;
 
 import java.io.IOException;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -37,7 +39,7 @@ class RestaTest {
 	void testCheckArgValue_Correcto() {
 		
 		try {
-			prueba.checkArgValue(4);
+			prueba.checkArgValue(4f);
 			assertTrue(true);
 		} catch (IOException e) {
 			assertTrue(false);
@@ -48,7 +50,7 @@ class RestaTest {
 	void testCheckArgValue_No_Correcto() {
 		
 		try {
-			prueba.checkArgValue(-4);
+			prueba.checkArgValue(-4f);
 			assertTrue(false);
 		} catch (IOException e) {
 			assertTrue(true);
@@ -99,6 +101,5 @@ class RestaTest {
 			System.out.println(e);
 		}
 	}
-
 
 }
