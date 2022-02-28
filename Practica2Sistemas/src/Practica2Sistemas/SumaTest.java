@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 class SumaTest {
 	
-	Suma prueba;
+	Sum prueba;
 	
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -22,7 +22,7 @@ class SumaTest {
 
 	@BeforeEach
 	void setUp() throws Exception {
-		prueba = new Suma ();
+		prueba = new Sum ();
 	}
 
 	@AfterEach
